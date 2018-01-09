@@ -1,9 +1,9 @@
-class receipt:
-    def __init__(self):
-        self.groc_list = {}
+class Receipt:
+    def __init__(self, groc_list):
+        self.groc_list = groc_list
 
-    def add_groc(self, groc):
-        groc_list[groc.name] = (groc.mass, groc.price)
+    def get_groc_list(self):
+        return self.groc_list
 
 
 
