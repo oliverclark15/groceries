@@ -1,3 +1,0 @@
-# use a bash alias to allow easy use from the command line
-
-alias "groc $1 $2"="python3 main.py"
