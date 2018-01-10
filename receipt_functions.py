@@ -36,3 +36,6 @@ def filter_name(groc_name):
 
 def print_receipt(receipt):
     print(receipt.get_groc_list())
+
+def return_receipt(receipt):
+    return (receipt.get_groc_list())
